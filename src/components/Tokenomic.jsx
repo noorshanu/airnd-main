@@ -62,15 +62,15 @@ function Tokenomic() {
           </button>
         </div>
 
-        <div className=" flex justify-around">
-            <div>
-                <p>Audited by: </p>
-                <img src="images/coin.png" alt="" />
+        <div className=" flex justify-center gap-10 mt-[3rem]">
+            <div className=" flex items-center gap-4">
+                <p className=" text-xl font-mon">Audited by: </p>
+                <img src="images/coin.png" alt="" className=" h-[40px]" />
             </div>
 
-            <div>
-                <p>Buy on: </p>
-                <img src="images/proof.png" alt="" />
+            <div className=" flex items-center gap-4">
+                <p className=" text-xl font-mon">Buy on: </p>
+                <img src="images/proof.png" alt="" className=" h-[40px]" />
             </div>
 
         </div>
