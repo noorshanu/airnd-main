@@ -1,24 +1,19 @@
 import React, { useRef } from "react";
 import { AiTwotoneCopy } from "react-icons/ai";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Tokenomic() {
-
-    const notify = () => {
-    
-
-        toast.success("Copied!");
-    
-        
-      };
-      const textToCopy = "0x725d1918b30a6c073c5cb7108f400f8ebccc8f95";
-      const textArea = useRef(null);
-      const copyToClipboard = () => {
-        textArea.current.select();
-        document.execCommand("copy");
-        notify()
-      };
+  const notify = () => {
+    toast.success("Copied!");
+  };
+  const textToCopy = "0x725d1918b30a6c073c5cb7108f400f8ebccc8f95";
+  const textArea = useRef(null);
+  const copyToClipboard = () => {
+    textArea.current.select();
+    document.execCommand("copy");
+    notify();
+  };
   return (
     <section>
       <div className=" container-wrapper">
@@ -48,9 +43,7 @@ function Tokenomic() {
         </div>
         <img src="images/token.png" alt="" className=" h-[500px] mx-auto" />
 
-        <div>
-
-        </div>
+        <div></div>
         <ToastContainer />
 
         <div className="flex justify-center gap-5">
@@ -67,6 +60,19 @@ function Tokenomic() {
           >
             <AiTwotoneCopy />
           </button>
+        </div>
+
+        <div className=" flex justify-around">
+            <div>
+                <p>Audited by: </p>
+                <img src="images/coin.png" alt="" />
+            </div>
+
+            <div>
+                <p>Buy on: </p>
+                <img src="images/proof.png" alt="" />
+            </div>
+
         </div>
       </div>
     </section>
