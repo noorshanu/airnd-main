@@ -13,7 +13,7 @@ function Features() {
         </div>
     </div>
     <div className='container-wrapper max-w-7xl mx-auto'>
-    <div className=' flex justify-evenly items-center gap-8 mx-auto mt-[4rem] '>
+    <div className=' flex justify-evenly flex-col sm:flex-row items-center gap-8 mx-auto mt-[4rem] '>
         <Cards title='Feature 1' Iconsrc='images/clod.png'/>
         <Cards title='Feature 1' Iconsrc='images/star.png'/>
         <Cards title='Feature 1' Iconsrc='images/net.png'/>

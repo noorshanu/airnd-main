@@ -82,3 +82,13 @@
 -moz-box-shadow: 3px 1px 31px 3px rgba(228,255,0,0.69);
 box-shadow: 3px 1px 31px 3px rgba(228,255,0,0.69);
   }
+
+  @media (max-width:768px) {
+    .hero-main{
+      background-image: url('../public/images/bot.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    
+  }

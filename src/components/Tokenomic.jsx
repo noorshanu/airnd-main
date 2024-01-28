@@ -27,7 +27,7 @@ function Tokenomic() {
           <div className=" bg-[#00ffc0] h-[4px] w-full max-w-[240px] mx-auto "></div>
         </div>
 
-        <div className=" flex justify-center gap-6 items-center mt-[4rem] mb-3" m>
+        <div className=" flex justify-center flex-col sm:flex-row gap-6 items-center mt-[4rem] mb-3" m>
           <a
             href="/"
             className=" bg-[#006a37] hover:bg-[#002732] border-2 border-[#00ed80] hover:border-[#00c5ff]  hover:text-black px-14 py-3 font-semibold font-mon text-lg"
@@ -38,13 +38,13 @@ function Tokenomic() {
 
           <a
             href="/"
-            className=" bg-[#6a2000] hover:bg-[#193200] hover:border-[#76ee00]  border-2 border-[#ed4e00] px-10 py-3 hover:text-black font-semibold font-mon text-lg"
+            className=" bg-[#6a2000] hover:bg-[#193200] hover:border-[#76ee00]  border-2 border-[#ed4e00] px-14 sm:px-10 py-3 hover:text-black font-semibold font-mon text-lg"
           >
             {" "}
             SELL TAX <strong>2%</strong>
           </a>
         </div>
-        <img src="images/token.png" alt="" className=" h-[500px] mx-auto p-4 mt-[4rem] mb-[2rem]" />
+        <img src="images/token.png" alt="" className=" sm:h-[500px] h-auto mx-auto p-4 mt-[4rem] mb-[2rem]" />
 
         <div></div>
         <ToastContainer />
@@ -65,13 +65,13 @@ function Tokenomic() {
           </button>
         </div>
 
-        <div className=" flex justify-center gap-10 mt-[3rem]">
-          <div className=" flex items-center gap-4">
+        <div className=" flex flex-col sm:flex-row justify-center gap-10 mt-[3rem]">
+          <div className=" flex justify-center sm:justify-normal items-center gap-4">
             <p className=" text-xl font-mon">Audited by: </p>
             <img src="images/coin.png" alt="" className=" h-[40px]" />
           </div>
 
-          <div className=" flex items-center gap-4">
+          <div className=" flex items-center justify-center sm:justify-normal gap-4">
             <p className=" text-xl font-mon">Buy on: </p>
             <img src="images/proof.png" alt="" className=" h-[40px]" />
           </div>

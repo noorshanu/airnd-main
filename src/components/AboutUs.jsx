@@ -15,7 +15,7 @@ function AboutUs() {
               alt=""
               className="mx-auto text-center h-[30px] sm:h-[60px]"
             />
-            <p className=" max-w-4xl mx-auto text-center mt-[2%] mb-[3%] text-xs sm:text-xl font-bold">
+            <p className=" max-w-max sm:max-w-4xl mx-auto text-center mt-[2%] mb-[3%] text-xs sm:text-xl font-bold">
               Bonked is a limited edition series of [number] NFTs, each one
               meticulously designed to capture the essence of [theme/concept].
               Whether you're a seasoned NFT enthu- siast or a newcomer to the

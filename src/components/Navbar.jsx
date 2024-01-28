@@ -5,12 +5,12 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" bg-transparent py-4  absolute top-0 w-full z-40 block sm:hidden">
+    <nav className=" bg-transparent py-4  relative top-0 w-full z-40 block sm:hidden pb-5">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="images/logo.png" className="h-[100px]" alt=" Logo" />
+          <img src="images/logo.png" className="h-[30px]" alt=" Logo" />
         </a>
 
         </div>
@@ -34,7 +34,7 @@ function Navbar() {
         {/* Hamburger menu for mobile */}
         <div className="md:hidden">
           <button
-            className="text-black focus:outline-none"
+            className="text-white focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             <svg
@@ -68,7 +68,7 @@ function Navbar() {
         {(ref) => (
           <div
             ref={ref}
-            className="md:hidden bg-white rounded-2xl border-2 border-[#000] px-2 pt-2 pb-3 space-y-1 m-4"
+            className="md:hidden bg-white rounded-2xl border-2 border-[#000] px-2 pt-2 pb-3 space-y-1 m-4 absolute top-10 max-w-xs left-0 right-0"
           >
             <a href="/" className="text-black font-bold text-lg block px-3 py-2">Home</a>
           

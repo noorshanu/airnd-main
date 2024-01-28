@@ -4,31 +4,32 @@ import Features from "./Features";
 
 function BorderSec() {
   return (
-    <section className=" overflow-x-hidden -mt-[38%] relative z-30">
-      <img src="images/bg-black.png" alt="" className=" w-full  " />
-      <div className=" absolute top-[45%] w-full ">
+    <section className=" mt-0 sm:-mt-[38%] relative z-30">
+      <img src="images/bg-black.png" alt="" className=" w-full  hidden sm:block " />
+      <div className=" relative sm:absolute sm:top-[45%] w-full ">
         <div className=" flex justify-center ">
           <img
             src="images/1.png"
             alt=""
-            className=" absolute left-0 h-[450px] -ml-[15%]"
+            className=" absolute left-0 h-[450px] -ml-[15%] hidden sm:block"
           />
           <div className=" text-center max-w-2xl  mx-auto">
             <h1 className=" font-mon text-3xl mb-6">
               EXPLORE THE WORLD OF <strong>AI</strong> WITH US.
             </h1>
-            <div className=" bg-[#00ffc0] h-[3px] max-w-lg mx-auto  mb-4"></div>
+            <div className=" bg-[#00ffc0] h-[3px] max-w-xs  sm:max-w-lg mx-auto  mb-4"></div>
             <p>
               {" "}
-              <p className="  mt-6">
+              <p className="  px-5 mt-6">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi{" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
               </p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+             
             </p>
             <div
-              className=" flex justify-center gap-6 items-center mt-8 mb-3"
+              className=" flex flex-col sm:flex-col justify-center gap-6 items-center mt-8 mb-3"
               m
             >
               <a
@@ -51,7 +52,7 @@ function BorderSec() {
           <img
             src="images/1.png"
             alt=""
-            className="  absolute right-0  h-[450px] -mr-[10%]"
+            className="  absolute right-0  h-[450px] -mr-[10%] hidden sm:block"
           />
         </div>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="hero-main relative h-[100vh]">
+    <section className="hero-main relative h-[50vh] sm:h-[100vh]">
       <div className=" container-wrapper pt-[25%] sm:pt-[10%]">
         <div></div>
       </div>
