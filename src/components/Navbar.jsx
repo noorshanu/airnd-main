@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" bg-transparent py-4  absolute top-0 w-full z-40">
+    <nav className=" bg-transparent py-4  absolute top-0 w-full z-40 block sm:hidden">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0 mr-6">
