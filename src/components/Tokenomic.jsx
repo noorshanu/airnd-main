@@ -15,16 +15,19 @@ function Tokenomic() {
     notify();
   };
   return (
-    <section>
+    <section className=" mt-[4rem]">
       <div className=" container-wrapper">
         <img src="images/tok.png" alt="" className=" mx-auto h-[130px]" />
 
         <div>
-          <h1 className="text-center"> OUR TOKENOMICS</h1>
-          <div className=" bg-[#00ffc0] h-[4px] w-full max-w-sm mx-auto "></div>
+          <h1 className="text-center text-2xl font-mon mb-2">
+            {" "}
+            OUR TOKENOMICS
+          </h1>
+          <div className=" bg-[#00ffc0] h-[4px] w-full max-w-[240px] mx-auto "></div>
         </div>
 
-        <div className=" flex justify-center gap-6 items-center mt-8 mb-3" m>
+        <div className=" flex justify-center gap-6 items-center mt-[4rem] mb-3" m>
           <a
             href="/"
             className=" bg-[#006a37] hover:bg-[#002732] border-2 border-[#00ed80] hover:border-[#00c5ff]  hover:text-black px-14 py-3 font-semibold font-mon text-lg"
@@ -41,7 +44,7 @@ function Tokenomic() {
             SELL TAX <strong>2%</strong>
           </a>
         </div>
-        <img src="images/token.png" alt="" className=" h-[500px] mx-auto" />
+        <img src="images/token.png" alt="" className=" h-[500px] mx-auto p-4 mt-[4rem] mb-[2rem]" />
 
         <div></div>
         <ToastContainer />
@@ -63,16 +66,15 @@ function Tokenomic() {
         </div>
 
         <div className=" flex justify-center gap-10 mt-[3rem]">
-            <div className=" flex items-center gap-4">
-                <p className=" text-xl font-mon">Audited by: </p>
-                <img src="images/coin.png" alt="" className=" h-[40px]" />
-            </div>
+          <div className=" flex items-center gap-4">
+            <p className=" text-xl font-mon">Audited by: </p>
+            <img src="images/coin.png" alt="" className=" h-[40px]" />
+          </div>
 
-            <div className=" flex items-center gap-4">
-                <p className=" text-xl font-mon">Buy on: </p>
-                <img src="images/proof.png" alt="" className=" h-[40px]" />
-            </div>
-
+          <div className=" flex items-center gap-4">
+            <p className=" text-xl font-mon">Buy on: </p>
+            <img src="images/proof.png" alt="" className=" h-[40px]" />
+          </div>
         </div>
       </div>
     </section>
