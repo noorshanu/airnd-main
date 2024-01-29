@@ -4,9 +4,9 @@ import Features from "./Features";
 
 function BorderSec() {
   return (
-    <section className=" mt-0 sm:-mt-[38%] relative z-30">
+    <section className=" mt-0 sm:-mt-[38%] relative z-30 ">
       <img src="images/bg-black.png" alt="" className=" w-full  hidden sm:block " />
-      <div className=" relative sm:absolute sm:top-[45%] w-full ">
+      <div className=" relative sm:absolute sm:top-[45%] w-full overflow-x-hidden ">
         <div className=" flex justify-center ">
           <img
             src="images/1.png"

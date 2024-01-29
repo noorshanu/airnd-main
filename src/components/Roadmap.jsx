@@ -11,7 +11,7 @@ function Roadmap() {
           <div className=" bg-[#00ffc0] h-[4px] w-full max-w-[210px] mx-auto "></div>
         </div>
 
-        <div className=" relative mt-[8%] ">
+        <div className=" relative mt-[8%]  ">
           <div className=" flex items-center  gap-[20rem] -mb-[7.5%] relative z-40 ">
             <img src="images/box-1.png" alt="" className=" h-[350px]" />
             <img src="images/box-1.png" alt="" className=" h-[350px]" />
