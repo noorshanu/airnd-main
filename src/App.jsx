@@ -1,4 +1,3 @@
-
 import BorderSec from "./components/BorderSec";
 
 import Footer from "./components/Footer";
@@ -8,19 +7,17 @@ import Navbar from "./components/Navbar";
 import Roadmap from "./components/Roadmap";
 import Tokenomic from "./components/Tokenomic";
 
-
 function App() {
   return (
     <>
-    <div className=" relative">
-
-   <Header/>
-      <Navbar />
-      <Hero />
-      <BorderSec />
-     <Tokenomic/>
-      <Roadmap/>
-      <Footer/>
+      <div className=" relative">
+        <Header />
+        <Navbar />
+        <Hero />
+        <BorderSec />
+        <Tokenomic />
+        <Roadmap />
+        <Footer />
       </div>
     </>
   );

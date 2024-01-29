@@ -7,7 +7,11 @@ function Footer() {
     <section className=" mt-0   py-10  ">
       <div className=" container-wrapper">
         <div>
-          <img src="images/foot.png" alt="" className=" mx-auto h-[135px] mb-[3rem] mt-[5rem]" />
+          <img
+            src="images/foot.png"
+            alt=""
+            className=" mx-auto h-[135px] mb-[3rem] mt-[5rem]"
+          />
         </div>
 
         <h1 className="text-center font-mon text-2xl  mb-4">
@@ -25,22 +29,31 @@ function Footer() {
           </a>
         </div>
 
-        <div className=' flex justify-center gap-5 mt-[4rem]'>
-        <a href="/"> <BsTwitterX className=' text-3xl'/></a>
-          <a href="/"> <FaTelegram className=' text-3xl'/></a>
-        
-          <a href="/"><BsInstagram className=' text-3xl'/></a>
-          <a href="https://bscscan.com/token/0x725d1918b30a6c073c5cb7108f400f8ebccc8f95" target='_blank'>
-            <img src="images/bsc.svg" alt="" className='h-[30px]' />
+        <div className=" flex justify-center gap-5 mt-[4rem]">
+          <a href="/">
+            {" "}
+            <BsTwitterX className=" text-3xl" />
+          </a>
+          <a href="/">
+            {" "}
+            <FaTelegram className=" text-3xl" />
+          </a>
+
+          <a href="/">
+            <BsInstagram className=" text-3xl" />
+          </a>
+          <a
+            href="https://bscscan.com/token/0x725d1918b30a6c073c5cb7108f400f8ebccc8f95"
+            target="_blank"
+          >
+            <img src="images/bsc.svg" alt="" className="h-[30px]" />
           </a>
         </div>
 
-
         <div className="flex justify-center gap-4 items-center mt-[2.5rem]">
-
-          <img src="images/logo.png" alt="" className="h-[25px]" /> | 
-          <p className=" font-mon text-sm sm:text-base">All Rights Reserved </p> |
-          <p className="font-mon text-sm sm:text-base">2024©</p>
+          <img src="images/logo.png" alt="" className="h-[25px]" /> |
+          <p className=" font-mon text-sm sm:text-base">All Rights Reserved </p>{" "}
+          |<p className="font-mon text-sm sm:text-base">2024©</p>
         </div>
       </div>
     </section>
