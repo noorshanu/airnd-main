@@ -39,8 +39,8 @@ function Footer() {
         <div className="flex justify-center gap-4 items-center mt-[2.5rem]">
 
           <img src="images/logo.png" alt="" className="h-[25px]" /> | 
-          <p className=" font-mon">All Rights Reserved </p> |
-          <p>2024©</p>
+          <p className=" font-mon text-sm sm:text-base">All Rights Reserved </p> |
+          <p className="font-mon text-sm sm:text-base">2024©</p>
         </div>
       </div>
     </section>
