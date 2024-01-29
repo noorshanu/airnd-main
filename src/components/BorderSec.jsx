@@ -6,12 +6,12 @@ function BorderSec() {
   return (
     <section className=" mt-0 sm:-mt-[38%] relative z-30 ">
       <img src="images/bg-black.png" alt="" className=" w-full  hidden sm:block " />
-      <div className=" relative sm:absolute sm:top-[45%] w-full overflow-x-hidden ">
+      <div className=" relative sm:absolute sm:top-[45%] w-full    ">
         <div className=" flex justify-center ">
           <img
             src="images/1.png"
             alt=""
-            className=" absolute left-0 h-[450px] -ml-[15%] hidden sm:block"
+            className=" absolute left-0 h-[450px] -ml-[15%] hidden sm:block "
           />
           <div className=" text-center max-w-2xl  mx-auto">
             <h1 className=" font-mon text-3xl mb-6">
@@ -29,7 +29,7 @@ function BorderSec() {
              
             </p>
             <div
-              className=" flex flex-col sm:flex-col justify-center gap-6 items-center mt-8 mb-3"
+              className=" flex flex-col sm:flex-row justify-center gap-6 items-center mt-8 mb-3"
               m
             >
               <a
@@ -50,9 +50,9 @@ function BorderSec() {
             </div>
           </div>
           <img
-            src="images/1.png"
+            src="images/2.png"
             alt=""
-            className="  absolute right-0  h-[450px] -mr-[10%] hidden sm:block"
+            className="  absolute right-0  h-[450px] ] hidden sm:block overflow-hidden"
           />
         </div>
 
