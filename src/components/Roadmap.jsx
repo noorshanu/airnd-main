@@ -1,4 +1,5 @@
 import React from "react";
+import RoadMob from "./RoadMob";
 
 function Roadmap() {
   return (
@@ -12,13 +13,21 @@ function Roadmap() {
         </div>
 
         <div className=" relative mt-[8%]  ">
-          <div className=" flex items-center  gap-[20rem] -mb-[7.5%] relative z-40 ">
+          <div className=" block sm:hidden mx-4">
+            <div className=" mx-auto -mb-[16%]">
+              <RoadMob/>
+
+            </div>
+
+
+          </div>
+          <div className=" sm:flex items-center  gap-[20rem] -mb-[7.5%] relative z-40   hidden ">
             <img src="images/box-1.png" alt="" className=" h-[350px]" />
             <img src="images/box-1.png" alt="" className=" h-[350px]" />
           </div>
 
           <img src="images/roadLine.png" alt="" />
-          <div className=" flex justify-end items-center  gap-[18rem] -mt-[7.5%] -mr-[4%]">
+          <div className=" sm:flex hidden justify-end items-center  gap-[18rem] -mt-[7.5%] -mr-[4%]">
             <img src="images/box-2.png" alt="" className=" h-[350px]" />
             <img src="images/box-2.png" alt="" className=" h-[350px]" />
           </div>
