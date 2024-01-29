@@ -15,8 +15,9 @@ function Tokenomic() {
     notify();
   };
   return (
-    <section className=" mt-[4rem]">
-      <div className=" container-wrapper">
+    <section className=" mt-[4rem] relative">
+       <img src="images/bot2.png" alt="" className=" absolute right-0 -z-10 overflow-hidden" />
+      <div className=" container-wrapper relative z-20">
         <img src="images/tok.png" alt="" className=" mx-auto h-[130px]" />
 
         <div>
@@ -44,6 +45,7 @@ function Tokenomic() {
             SELL TAX <strong>2%</strong>
           </a>
         </div>
+       
         <img src="images/token.png" alt="" className=" sm:h-[500px] h-auto mx-auto p-4 mt-[4rem] mb-[2rem]" />
 
         <div></div>
@@ -77,6 +79,7 @@ function Tokenomic() {
           </div>
         </div>
       </div>
+      <img src="images/cir.png" alt="" className=" absolute left-0 -bottom-[60%] h-[900px]" />
     </section>
   );
 }
