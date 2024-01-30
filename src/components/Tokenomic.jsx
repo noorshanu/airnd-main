@@ -79,7 +79,7 @@ function Tokenomic() {
           </div>
         </div>
       </div>
-      <img src="images/cir.png" alt="" className=" absolute left-0 -bottom-[60%] h-[900px]" />
+      <img src="images/cir.png" alt="" className=" absolute left-0 -bottom-[60%] h-auto sm:h-[900px]" />
     </section>
   );
 }
