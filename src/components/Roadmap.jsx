@@ -3,7 +3,7 @@ import RoadMob from "./RoadMob";
 
 function Roadmap() {
   return (
-    <section className="  " id="road">
+    <section className=" relative  z-50 " id="road" >
       <div className="container-wrapper py-16  ">
         <img src="images/tar.png" alt="" className=" mx-auto h-[130px]" />
 
@@ -33,6 +33,7 @@ function Roadmap() {
           </div>
         </div>
       </div>
+     
     </section>
   );
 }

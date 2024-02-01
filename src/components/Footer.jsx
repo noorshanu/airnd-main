@@ -4,8 +4,8 @@ import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
 import { IoSend } from "react-icons/io5";
 function Footer() {
   return (
-    <section className=" mt-0   py-10  ">
-      <div className=" container-wrapper">
+    <section className=" mt-0   py-10 relative z-10  ">
+      <div className=" container-wrapper relative z-30">
         <div>
           <img
             src="images/foot.png"
@@ -14,7 +14,7 @@ function Footer() {
           />
         </div>
 
-        <h1 className="text-center font-mon text-lg sm:text-4xl  mb-4">
+        <h1 className="text-center font-mon text-lg sm:text-4xl  mb-4 relative z-[999]">
           YOU ARE WELCOME TO BE PART OF OUR COMMUNITY
         </h1>
         <div className=" bg-[#00ffc0] h-[4px] w-full max-w-2xl mx-auto"></div>
@@ -56,6 +56,8 @@ function Footer() {
           |<p className="font-mon text-sm sm:text-base">2024©</p>
         </div>
       </div>
+      <img src="images/ddd.png" alt="" className=" absolute left-0 bottom-0 h-[100%] sm:h-[205%]" />
+      <img src="images/droid.png" alt="" className=" absolute right-0 bottom-0 h-auto sm:h-[1200px] hidden sm:block" />
     </section>
   );
 }
