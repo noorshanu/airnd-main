@@ -70,10 +70,12 @@ function Navbar() {
             ref={ref}
             className="md:hidden bg-white rounded-2xl border-2 border-[#000] px-2 pt-2 pb-3 space-y-1 m-4 absolute top-10 max-w-xs left-0 right-0"
           >
-          <a href="/" className="text-black font-bold text-lg px-3 py-2">Whitepaper</a>
+       <div className=" flex flex-col gap-4">
+       <a href="/" className="text-black font-bold text-lg px-3 py-2">Whitepaper</a>
           <a href="#about" className="text-black font-bold text-lg px-3 py-2">Tokenomics</a>
           <a href="#col" className="text-black font-bold text-lg px-3 py-2">Pinksale </a>
           <a href="#road" className="text-black font-bold text-lg px-3 py-2">Deployer bot</a>
+       </div>
 
           </div>
         )}
