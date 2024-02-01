@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <>
-    <div className=' sm:flex justify-between items-center bg-transparent   hidden  max-w-7xl mx-auto px-4 py-6'>
+    <div className=' sm:flex justify-between items-center bg-transparent   hidden  max-w-7xl mx-auto px-4 py-6 z-10'>
 
         <a href="/"> Whitepaper</a>
         <a href="/"> Tokenomics</a>
