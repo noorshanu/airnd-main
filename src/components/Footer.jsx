@@ -46,7 +46,7 @@ function Footer() {
             href="https://bscscan.com/token/0x725d1918b30a6c073c5cb7108f400f8ebccc8f95"
             target="_blank"
           >
-            <img src="images/bsc.svg" alt="" className="h-[39px]" />
+            <img src="images/bsc.svg" alt="" className="h-[20px] sm:h-[39px]" />
           </a>
         </div>
 
