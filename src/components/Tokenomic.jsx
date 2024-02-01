@@ -16,8 +16,8 @@ function Tokenomic() {
   };
   return (
     <section className=" mt-[4rem] relative">
-       <img src="images/bot2.png" alt="" className=" absolute right-0 -z-10 overflow-hidden" />
-      <div className=" container-wrapper relative z-20">
+       <img src="images/bot2.png" alt="" className=" absolute right-0 -z-10 overflow-hidden top-[15%]" />
+      <div className=" container-wrapper relative z-20 p-[8%]">
         <img src="images/tok.png" alt="" className=" mx-auto h-[130px]" />
 
         <div>
@@ -31,7 +31,7 @@ function Tokenomic() {
         <div className=" flex justify-center flex-col sm:flex-row gap-6 items-center mt-[4rem] mb-3" m>
           <a
             href="/"
-            className=" bg-[#006a37] hover:bg-[#002732] border-2 border-[#00ed80] hover:border-[#00c5ff]  hover:text-black px-14 py-3 font-semibold font-mon text-lg"
+            className=" bg-[#006a37] hover:bg-[#002732] border-2 rounded-md border-[#00ed80] hover:border-[#00c5ff]  hover:text-black px-14 py-3 font-semibold font-mon text-lg"
           >
             {" "}
             BUY TAX <strong>0%</strong>
@@ -39,7 +39,7 @@ function Tokenomic() {
 
           <a
             href="/"
-            className=" bg-[#6a2000] hover:bg-[#193200] hover:border-[#76ee00]  border-2 border-[#ed4e00] px-14 sm:px-10 py-3 hover:text-black font-semibold font-mon text-lg"
+            className=" bg-[#6a2000] hover:bg-[#193200] rounded-md hover:border-[#76ee00]  border-2 border-[#ed4e00] px-14 sm:px-10 py-3 hover:text-black font-semibold font-mon text-lg"
           >
             {" "}
             SELL TAX <strong>2%</strong>

@@ -11,9 +11,9 @@ function BorderSec() {
           <img
             src="images/1.png"
             alt=""
-            className=" absolute left-0 h-[450px] -ml-[15%] hidden sm:block "
+            className=" absolute left-0 h-[450px] -ml-[15%] hidden sm:block z-[2] "
           />
-          <div className=" text-center max-w-2xl  mx-auto">
+          <div className=" text-center max-w-2xl  mx-auto relative z-50">
             <h1 className=" font-mon text-3xl mb-6">
               EXPLORE THE WORLD OF <strong>AI</strong> WITH US.
             </h1>
@@ -34,7 +34,7 @@ function BorderSec() {
             >
               <a
                 href="/"
-                className=" bg-[#193200] hover:bg-[#002732] border-2 border-[#76ee00] hover:border-[#00c5ff]  hover:text-black px-14 py-2 font-semibold font-mon text-lg"
+                className=" bg-[#193200] hover:bg-[#002732] rounded-md border-2 border-[#76ee00] hover:border-[#00c5ff]  hover:text-black px-14 py-2 font-semibold font-mon text-base sm:text-2xl"
               >
                 {" "}
                 Buy Now{" "}
@@ -42,7 +42,7 @@ function BorderSec() {
 
               <a
                 href="/"
-                className=" bg-[#002732] hover:bg-[#193200] hover:border-[#76ee00]  border-2 border-[#00c5ff] px-10 py-2 hover:text-black font-semibold font-mon text-lg"
+                className=" bg-[#002732] hover:bg-[#193200] rounded-md hover:border-[#76ee00]  border-2 border-[#00c5ff] px-10 py-2 hover:text-black font-semibold font-mon text-base sm:text-2xl"
               >
                 {" "}
                 Whitepaper{" "}
