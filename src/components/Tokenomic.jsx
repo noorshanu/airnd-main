@@ -16,7 +16,8 @@ function Tokenomic() {
   };
   return (
     <section className=" mt-[4rem] relative">
-       <img src="images/bot2.png" alt="" className=" absolute right-0 -z-10 overflow-hidden top-[15%]" />
+       <img src="images/bot2.png" alt="" className=" absolute right-0 z-30 overflow-hidden top-[15%]" />
+       <img src="images/side2.png" alt="" className=" absolute right-0 z-20 overflow-hidden top-[-32%] h-[1400px]" />
       <div className=" container-wrapper relative z-20 p-[8%]">
         <img src="images/tok.png" alt="" className=" mx-auto h-[130px]" />
 
