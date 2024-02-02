@@ -68,7 +68,9 @@ body {
 }
 .hero-main {
   background-image: url("../public/images/bot.png");
-  background-size: cover;
+  background-size: contain;
+  background-position: center center;
+  background-position-x: 32%;
   background-repeat: no-repeat;
 }
 
@@ -100,6 +102,38 @@ body {
   100% {
     box-shadow: 0 0 10px 8px transparent;
     border-width: 2px;
+  }
+}
+
+
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.anime2 {
+  animation: animName 5s linear infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 

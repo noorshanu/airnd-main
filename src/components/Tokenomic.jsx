@@ -52,7 +52,7 @@ function Tokenomic() {
         <div></div>
         <ToastContainer />
 
-        <div className="flex justify-center gap-5">
+        <div className="flex justify-center gap-5 pt-[4%]">
           <input
             type="text"
             value={textToCopy}
