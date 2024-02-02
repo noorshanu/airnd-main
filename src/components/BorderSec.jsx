@@ -13,7 +13,7 @@ function BorderSec() {
             alt=""
             className=" absolute left-0 h-[450px] -ml-[15%] hidden sm:block z-[2] "
           />
-          <div className=" text-center max-w-2xl  mx-auto relative z-50">
+          <div className=" text-center max-w-2xl  mx-auto relative z-50 pt-16">
             <h1 className=" font-mon text-3xl mb-6">
               EXPLORE THE WORLD OF <strong>AI</strong> WITH US.
             </h1>
@@ -56,7 +56,7 @@ function BorderSec() {
           />
         </div>
 
-       <div>
+       <div className=" relative z-[999]">
         <Features/>
        </div>
       </div>

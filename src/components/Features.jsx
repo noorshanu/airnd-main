@@ -3,9 +3,9 @@ import Cards from './Cards'
 
 function Features() {
   return (
-   <section className='mt-[10rem] mb-5 sm:mb-[4rem] relative z-[200]'>
-    <img src="images/blue.png" alt="" className=' absolute -top-[50%] h-[1200px] w-[600px]' />
-    <img src="images/pat.png" alt=""  className=' absolute h-[1200px] mt-[16%]'/>
+   <section className='mt-[10rem] mb-5 sm:mb-[4rem] relative z-[100]'>
+    <img src="images/blue.png" alt="" className=' absolute -top-[50%] h-[1200px] w-[600px] z-[-2]' />
+    <img src="images/pat.png" alt=""  className=' absolute h-[1200px] mt-[16%] z-[-2]'/>
       <div className='container-wrapper max-w-7xl mx-auto'>
     <div className=' flex justify-between items-center gap-4'>
       
