@@ -5,7 +5,7 @@ function Roadmap() {
   return (
     <section className=" relative  z-50 " id="road" >
       <div className="container-wrapper py-16  ">
-        <img src="images/tar.png" alt="" className=" mx-auto h-[130px]" />
+        <img src="images/tar.png" alt="" className=" mx-auto h-[130px] glow-anime show-xl rounded-full border-transparent" />
 
         <div>
           <h1 className="text-center text-2xl font-mon mb-2"> OUR ROADMAP</h1>

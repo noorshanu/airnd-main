@@ -4,13 +4,13 @@ import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
 import { IoSend } from "react-icons/io5";
 function Footer() {
   return (
-    <section className=" mt-0   py-10 relative z-10  ">
+    <section className=" mt-0   pb-10 relative z-10  ">
       <div className=" container-wrapper relative z-30">
         <div>
           <img
             src="images/foot.png"
             alt=""
-            className=" mx-auto h-[175px] mb-[3rem] mt-[5rem]"
+            className=" mx-auto h-[175px] mb-[3rem] mt-[5rem] glow-anime show-xl rounded-full border-transparent"
           />
         </div>
 
@@ -30,23 +30,23 @@ function Footer() {
         </div>
 
         <div className=" flex justify-center gap-5 mt-[4rem]">
-          <a href="/">
+          <a href="/" className="t">
             {" "}
-            <BsTwitterX className=" text-lg sm:text-4xl" />
+            <BsTwitterX className=" text-lg sm:text-4xl  show-xxl hover:rounded-full hover:p-1   " />
           </a>
           <a href="/">
             {" "}
-            <FaTelegram className=" text-lg sm:text-4xl" />
+            <FaTelegram className=" text-lg sm:text-4xl show-xxl hover:rounded-full hover:p-1"  />
           </a>
 
           <a href="/">
-            <BsInstagram className=" text-lg sm:text-4xl" />
+            <BsInstagram className=" text-lg sm:text-4xl show-xxl hover:rounded-full hover:p-1" />
           </a>
           <a
             href="https://bscscan.com/token/0x725d1918b30a6c073c5cb7108f400f8ebccc8f95"
             target="_blank"
           >
-            <img src="images/bsc.svg" alt="" className="h-[20px] sm:h-[39px]" />
+            <img src="images/bsc.svg" alt="" className="h-[20px] sm:h-[39px] show-xxl hover:rounded-full hover:p-1" />
           </a>
         </div>
 
