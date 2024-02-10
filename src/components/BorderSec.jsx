@@ -1,5 +1,6 @@
 import React from "react";
-import Marquee from "react-fast-marquee";
+import { BsTwitterX, BsInstagram, BsFacebook } from "react-icons/bs";
+import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
 import Features from "./Features";
 
 function BorderSec() {
@@ -51,6 +52,26 @@ function BorderSec() {
                 Whitepaper{" "}
               </a>
             </div>
+            <div className=" flex  justify-center gap-5 mt-[4rem]">
+          <a href="/" className="t">
+            {" "}
+            <BsTwitterX className=" text-3xl sm:text-4xl  show-xxl hover:rounded-full hover:p-1   " />
+          </a>
+          <a href="/">
+            {" "}
+            <FaTelegram className=" text-3xl sm:text-4xl show-xxl hover:rounded-full hover:p-1"  />
+          </a>
+
+          <a href="/">
+            <BsInstagram className=" text-3xl sm:text-4xl show-xxl hover:rounded-full hover:p-1" />
+          </a>
+          <a
+            href="https://bscscan.com/token/0xcD2a2fA3dEAE0e83D629012d1e3456C82B7ea80e"
+            target="_blank"
+          >
+            <img src="images/bsc.svg" alt="" className="h-[30px] sm:h-[39px] show-xxl hover:rounded-full hover:p-1" />
+          </a>
+        </div>
           </div>
           <img
             src="images/2.png"
