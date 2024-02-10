@@ -7,7 +7,7 @@ function Tokenomic() {
   const notify = () => {
     toast.success("Copied!");
   };
-  const textToCopy = "0x725d1918b30a6c073c5cb7108f400f8ebccc8f95";
+  const textToCopy = "0xcD2a2fA3dEAE0e83D629012d1e3456C82B7ea80e";
   const textArea = useRef(null);
   const copyToClipboard = () => {
     textArea.current.select();
@@ -16,10 +16,22 @@ function Tokenomic() {
   };
   return (
     <section className=" mt-[4rem] relative z-[500]">
-       <img src="images/bot2.png" alt="" className=" absolute right-0 z-10 overflow-hidden top-[15%] " />
-       <img src="images/side2.png" alt="" className=" absolute right-0 z-5 overflow-hidden top-[-32%] h-[1400px]" />
+      <img
+        src="images/bot2.png"
+        alt=""
+        className=" absolute right-0 z-10 overflow-hidden top-[15%] "
+      />
+      <img
+        src="images/side2.png"
+        alt=""
+        className=" absolute right-0 z-5 overflow-hidden top-[-32%] h-[1400px]"
+      />
       <div className=" container-wrapper relative z-20 pt-[8%] pb-4">
-        <img src="images/tok.png" alt="" className=" mx-auto h-[130px] glow-anime show-xl rounded-full border-transparent" />
+        <img
+          src="images/tok.png"
+          alt=""
+          className=" mx-auto h-[130px]  rounded-full border-transparent"
+        />
 
         <div>
           <h1 className="text-center text-2xl font-mon mb-2">
@@ -29,7 +41,7 @@ function Tokenomic() {
           <div className=" bg-[#00ffc0] h-[4px] w-full max-w-[240px] mx-auto "></div>
         </div>
 
-        <div className=" flex justify-center flex-col sm:flex-row gap-6 items-center mt-[4rem] mb-3 relative z-[9999]" >
+        <div className=" flex justify-center flex-col sm:flex-row gap-6 items-center mt-[4rem] mb-3 relative z-[9999]">
           <a
             href="/"
             className=" bg-[#006a37] hover:bg-[#002732] border-2 rounded-md border-[#00ed80] hover:border-[#00c5ff]  hover:text-black px-14 py-3 font-semibold font-mon text-lg"
@@ -46,8 +58,12 @@ function Tokenomic() {
             SELL TAX <strong>2%</strong>
           </a>
         </div>
-       
-        <img src="images/token.png" alt="" className=" sm:h-[500px] h-auto mx-auto p-4 mt-[4rem] mb-[2rem]" />
+
+        <img
+          src="images/token.png"
+          alt=""
+          className=" sm:h-[500px] h-auto mx-auto p-4 mt-[4rem] mb-[2rem]"
+        />
 
         <div></div>
         <ToastContainer />
@@ -80,7 +96,11 @@ function Tokenomic() {
           </div>
         </div>
       </div>
-      <img src="images/cir.png" alt="" className=" absolute left-0 -bottom-[60%] h-auto sm:h-[900px]" />
+      <img
+        src="images/cir.png"
+        alt=""
+        className=" absolute left-0 -bottom-[60%] h-auto sm:h-[900px]"
+      />
     </section>
   );
 }

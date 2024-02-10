@@ -10,7 +10,7 @@ function Footer() {
           <img
             src="images/foot.png"
             alt=""
-            className=" mx-auto h-[175px] mb-[3rem] mt-[5rem] glow-anime show-xl rounded-full border-transparent"
+            className=" mx-auto h-[175px] mb-[3rem] mt-[5rem]  rounded-full border-transparent"
           />
         </div>
 

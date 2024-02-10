@@ -5,7 +5,11 @@ import Features from "./Features";
 function BorderSec() {
   return (
     <section className=" mt-0 sm:-mt-[38%] relative z-30 ">
-      <img src="images/bg-black.png" alt="" className=" w-full  hidden sm:block " />
+      <img
+        src="images/bg-black.png"
+        alt=""
+        className=" w-full  hidden sm:block "
+      />
       <div className=" relative sm:absolute sm:top-[45%] w-full    ">
         <div className=" flex justify-center ">
           <img
@@ -13,20 +17,19 @@ function BorderSec() {
             alt=""
             className=" absolute left-0 h-[450px] -ml-[15%] hidden sm:block z-[2] "
           />
-          <div className=" text-center max-w-2xl  mx-auto relative z-50 pt-16">
+          <div className=" text-center max-w-xl  mx-auto relative z-50 pt-16">
             <h1 className=" font-mon text-3xl mb-6">
-              EXPLORE THE WORLD OF <strong>AI</strong> WITH US.
+              EXPLORE THE WORLD IF CRYPTO & <strong>AI</strong> WITH US.
             </h1>
             <div className=" bg-[#00ffc0] h-[3px] max-w-xs  sm:max-w-lg mx-auto  mb-4"></div>
             <p>
               {" "}
               <p className="  px-5 mt-6">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi{" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                Airnd is a Token Deployer Bot for the BSC chain, integrating AI
+                to simplify token deployment. It plans to expand support to ETH,
+                Solana, Base, and Arbitrum, enhancing token launch efficiency
+                across multiple blockchains.
               </p>
-             
             </p>
             <div
               className=" flex flex-col sm:flex-row justify-center gap-6 items-center mt-8 mb-3"
@@ -56,9 +59,9 @@ function BorderSec() {
           />
         </div>
 
-       <div className=" relative z-[999]">
-        <Features/>
-       </div>
+        <div className=" relative z-[999]">
+          <Features />
+        </div>
       </div>
     </section>
   );

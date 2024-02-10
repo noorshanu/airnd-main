@@ -16,9 +16,9 @@ function Features() {
     </div>
     <div className='container-wrapper max-w-7xl mx-auto'>
     <div className=' flex justify-evenly flex-col sm:flex-row items-center gap-8 mx-auto mt-[4rem] '>
-        <Cards title='Feature 1' Iconsrc='images/clod.png'/>
-        <Cards title='Feature 1' Iconsrc='images/star.png'/>
-        <Cards title='Feature 1' Iconsrc='images/net.png'/>
+        <Cards title='Feature 1' Para="AI Integration: Airnd leverages artificial intelligence to streamline the token deployment process, making it more efficient and user-friendly" Iconsrc='images/clod.png'/>
+        <Cards title='Feature 2' Para="Multi-Chain Support: Initially designed for the Binance Smart Chain, Airnd aims to extend its services to include Ethereum, Solana, Base, and Arbitrum, providing versatile blockchain platform support. " Iconsrc='images/star.png'/>
+        <Cards title='Feature 3' Para="Automated Deployment: Offers automated token deployment features, reducing the complexity and technical barriers for users looking to launch their tokens on various blockchain networks." Iconsrc='images/net.png'/>
 
     </div>
     </div>
