@@ -32,21 +32,21 @@ function Footer() {
         <div className=" flex justify-center gap-5 mt-[4rem]">
           <a href="/" className="t">
             {" "}
-            <BsTwitterX className=" text-lg sm:text-4xl  show-xxl hover:rounded-full hover:p-1   " />
+            <BsTwitterX className=" text-3xl sm:text-4xl  show-xxl hover:rounded-full hover:p-1   " />
           </a>
           <a href="/">
             {" "}
-            <FaTelegram className=" text-lg sm:text-4xl show-xxl hover:rounded-full hover:p-1"  />
+            <FaTelegram className=" text-3xl sm:text-4xl show-xxl hover:rounded-full hover:p-1"  />
           </a>
 
           <a href="/">
-            <BsInstagram className=" text-lg sm:text-4xl show-xxl hover:rounded-full hover:p-1" />
+            <BsInstagram className=" text-3xl sm:text-4xl show-xxl hover:rounded-full hover:p-1" />
           </a>
           <a
-            href="https://bscscan.com/token/0x725d1918b30a6c073c5cb7108f400f8ebccc8f95"
+            href="https://bscscan.com/token/0xcD2a2fA3dEAE0e83D629012d1e3456C82B7ea80e"
             target="_blank"
           >
-            <img src="images/bsc.svg" alt="" className="h-[20px] sm:h-[39px] show-xxl hover:rounded-full hover:p-1" />
+            <img src="images/bsc.svg" alt="" className="h-[30px] sm:h-[39px] show-xxl hover:rounded-full hover:p-1" />
           </a>
         </div>
 
