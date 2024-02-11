@@ -1,6 +1,7 @@
 import React from "react";
 import { BsTwitterX, BsInstagram, BsFacebook } from "react-icons/bs";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa6";
+import { FaMedium } from "react-icons/fa6";
 import Features from "./Features";
 
 function BorderSec() {
@@ -64,6 +65,9 @@ function BorderSec() {
 
           <a href="/">
             <BsInstagram className=" text-3xl sm:text-4xl show-xxl hover:rounded-full hover:p-1" />
+          </a>
+          <a href="/">
+            <FaMedium className=" text-3xl sm:text-4xl show-xxl hover:rounded-full hover:p-1" />
           </a>
           <a
             href="https://bscscan.com/token/0xcD2a2fA3dEAE0e83D629012d1e3456C82B7ea80e"
