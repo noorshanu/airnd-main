@@ -11,7 +11,7 @@ function RoadMob() {
       <Swiper className="mySwiper relative z-50">
         <SwiperSlide>
         <div className=" ">
-              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#e4ff00] show-xl glow-anime w-full relative z-50 h-full">
+              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#00ffc9] rounded-lgshow-xl glow-anime w-full relative z-50 h-full">
                 <h1 className="  text-base font-mon font-medium">
                   Phase 1: Foundation and Conceptualization
                 </h1>
@@ -32,7 +32,7 @@ function RoadMob() {
         <SwiperSlide>
 
         <div className=" ">
-              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#e4ff00] show-xl glow-anime w-full relative z-50 h-full">
+              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#00ffc9] rounded-lg show-xl glow-anime w-full relative z-50 h-full">
                 <h1 className="  text-lg font-mon font-medium">
                   Phase 2 : Platform Development and Community Building
                 </h1>
@@ -56,7 +56,7 @@ function RoadMob() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="  px-[2.2rem] py-4 road-card border-2   border-[#e4ff00] show-xl glow-anime w-full relative z-50 h-full">
+        <div className="  px-[2.2rem] py-4 road-card border-2   border-[#00ffc9] rounded-lg show-xl glow-anime w-full relative z-50 h-full">
                   <h1 className="  text-lg font-mon font-medium">
                     Phase 3: Launch and Expansion
                   </h1>
@@ -86,7 +86,7 @@ function RoadMob() {
         </SwiperSlide>
         <SwiperSlide>
 
-        <div className="  px-[2.2rem] py-4 road-card border-2  border-[#e4ff00] show-xl glow-anime w-full relative z-50 h-full">
+        <div className="  px-[2.2rem] py-4 road-card border-2  border-[#00ffc9] rounded-lg show-xl glow-anime w-full relative z-50 h-full">
                   <h1 className=" text-lg font-mon font-medium">
                     Phase 4: Growth and Celebration
                   </h1>

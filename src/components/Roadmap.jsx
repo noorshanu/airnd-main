@@ -68,7 +68,7 @@ function Roadmap() {
           <img
             src="images/roadLine.png"
             alt=""
-            className=" relative sm:absolute left-0 right-0 -mt-4"
+            className=" relative hidden sm:block sm:absolute left-0 right-0 -mt-4"
           />
           <div className=" sm:flex hidden justify-end items-center  gap-[18rem] -mt-[.5%] -mr-[4%]">
             {/* <img src="images/box-2.png" alt="" className=" h-[350px]" />
