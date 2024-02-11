@@ -95,6 +95,11 @@ body {
   animation: anim-glow 2s ease infinite;
 }
 
+.road-card{
+  background: rgb(41,50,73);
+background: linear-gradient(0deg, rgba(41,50,73,1) 20%, rgba(0,0,0,1) 100%);
+}
+
 @keyframes anim-glow {
   0% {
     box-shadow: 0 0 rgba(#61ef61, 1);
