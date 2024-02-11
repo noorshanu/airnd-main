@@ -24,7 +24,7 @@ function Roadmap() {
           </div>
           <div className=" sm:flex items-start  gap-[20rem] relative  mt-[40%]  hidden ">
             <div className="  z-[99]  absolute -top-[17rem] ">
-              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#e4ff00] show-xl glow-anime w-[450px] relative z-50 h-full">
+              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#00ffc9] rounded-lg show-xl glow-anime w-[450px] relative z-50 h-full">
                 <h1 className=" text-center text-lg font-mon font-medium">
                   Phase 1: Foundation and Conceptualization
                 </h1>
@@ -41,7 +41,7 @@ function Roadmap() {
               <img src="images/line.png" alt="" className=" mx-auto" />
             </div>
             <div className=" absolute right-[5rem] -top-[23rem] z-10">
-              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#e4ff00] show-xl glow-anime w-[450px] relative z-50 h-full">
+              <div className="  px-[2.2rem] py-4 road-card border-2  border-[#00ffc9] rounded-lg show-xl glow-anime w-[450px] relative z-50 h-full">
                 <h1 className=" text-center text-lg font-mon font-medium">
                   Phase 2 : Platform Development and Community Building
                 </h1>
@@ -75,13 +75,13 @@ function Roadmap() {
             <img src="images/box-2.png" alt="" className=" h-[350px]" /> */}
 
             <div className=" sm:flex items-center  gap-[20rem]  relative z-40   hidden ">
-              <div className=" relative z-[99999] ml-14">
+              <div className=" relative z-[99999] ">
                 <img
                   src="images/line.png"
                   alt=""
                   className=" mx-auto rotate-180"
                 />
-                <div className="  px-[2.2rem] py-4 road-card border-2   border-[#e4ff00] show-xl glow-anime w-[450px] relative z-50 h-full">
+                <div className="  px-[2.2rem] py-4 road-card border-2   border-[#00ffc9] rounded-lg show-xl glow-anime w-[450px] relative z-50 h-full">
                   <h1 className=" text-center text-lg font-mon font-medium">
                     Phase 3: Launch and Expansion
                   </h1>
@@ -115,7 +115,7 @@ function Roadmap() {
                   alt=""
                   className=" mx-auto rotate-180"
                 />
-                <div className="  px-[2.2rem] py-4 road-card border-2  border-[#e4ff00] show-xl glow-anime w-[450px] relative z-50 h-full">
+                <div className="  px-[2.2rem] py-4 road-card border-2  border-[#00ffc9] rounded-lg show-xl glow-anime w-[450px] relative z-50 h-full">
                   <h1 className=" text-center text-lg font-mon font-medium">
                     Phase 4: Growth and Celebration
                   </h1>
